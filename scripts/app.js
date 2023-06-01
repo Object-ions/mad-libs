@@ -2,6 +2,13 @@
 let form = document.querySelector("form");
 form.onsubmit = function(event) {
   // then we print values to the story area;
+    const person1Input = document.getElementById("person1Input").value;
+    const person2Input = document.getElementById("person2Input").value;
+    const animalInput= document.getElementById("animalInput").value;
+    const exclamationInput = document.getElementById("exclamationInput").value;
+    const verbInput = document.getElementById("verbInput").value;
+    const nounInput = document.getElementById("nounInput").value;
+
   // we're hardcoding these values for now
   document.querySelector("span#person1a").innerText = "person 1";
   document.querySelector("span#person1b").innerText = "person 1";
